@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>
+			Voyage
+		  </title>
+		  <link
+		  rel="shortcut icon"
+		  href="assets/images/favicon.png"
+		  type="image/x-icon"
+		  />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+		
+		<!-- ==== WOW JS, Custom CSS ==== --> 
+		<link rel="stylesheet" href="assets/css/animate.css" />
+		<link rel="stylesheet" href="assets/css/tailwind.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.29/skrollr.min.js"></script>
+  
+		<script src="assets/js/scrollzoom.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+        <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+        <!-- <script src="js/vendor/modernizr-2.7.1.min.js"></script> -->
+    </head>
+    <body class="loading">
+		<div id="fb-root"></div>
+
+		 <!-- ====== Navbar Section Start -->
+		 <div
+		 class="ud-header absolute top-0 left-0 z-40 flex w-full items-center bg-transparent"
+	   >
+		 <div class="container">
+		   <div class="relative -mx-4 flex items-center justify-between custom-navbar">
+			 <div class="flex w-full items-center justify-between px-4">
+			   <div>
+				 <nav
+				   id="navbarCollapse"
+				   class="absolute right-4 hidden w-full top-0 left-0 bg-green-dark py-5 shadow-lg lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:shadow-none xl:px-6"
+				 >
+				   <ul class="blcok lg:flex toggle-nav-expand">
+					 <li class="group relative">
+					   <a
+						 href="#program"
+						 class="uppercase text-xs mx-8 flex py-2 group-hover:text-black lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 "
+					   >
+					   The program
+					   </a>
+					 </li>
+					 <li class="group relative">
+					   <a
+						 href="#testimonial"
+						 class="uppercase text-xs mx-8 flex py-2 group-hover:text-black lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 "
+					   >
+					   Testimonials
+					   </a>
+					 </li>
+					 <li class="group relative">
+					   <a
+						 href="#faq"
+						 class="uppercase text-xs mx-8 flex py-2 group-hover:text-black lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 "
+					   >
+					   Faq
+					   </a>
+					 </li>
+				   </ul>
+				   <div class="bg-green-dark lg:hidden hidden h-100 toggle-nav-collapse">
+					 <a href="index.html" class="navbar-logo block w-full px-10">
+					   <img src="assets/images/logo/Voyage-white.png" alt="logo" class="header-logo w-full w-24" />
+					 </a>
+					 <div>
+					   <ul class="blcok lg:flex">
+						 <li class="group text-center relative">
+						   <a href="#program" class="uppercase text-white letter-scale-3 font-playfair font-normal text-[28px] mx-8 py-2 group-hover:text-black underline lg:mr-0 lg:inline-flex lg:py-6 lg:px-0">The program </a>
+						 </li>
+						 <li class="group text-center relative">
+						   <a href="#testimonial" class="uppercase text-white letter-scale-3 font-playfair font-normal text-[28px] mx-8 py-2 group-hover:text-black underline lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 "> Testimonials</a>
+						 </li>
+						 <li class="group text-center relative">
+						   <a href="#faq" class="uppercase text-white letter-scale-3 font-playfair font-normal text-[28px] mx-8 py-2 group-hover:text-black underline lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 ">Faq</a>
+						 </li>
+					   </ul>
+					 </div>
+					 <div class="text-center">
+					   <div class="flex justify-center">
+						 <a href="" class="py-3 px-3 ">
+						   <img src="assets/images/logo/Twitter-white.svg" alt="">
+						 </a>
+						 <a href="" class="py-3 px-3">
+						   <img src="assets/images/logo/Instogram-white.svg" alt="">
+						 </a>
+					   </div>
+					   <div>
+						 <p class="rounded-full bg-yellow-50 py-3 px-6 uppercase font-medium w-70pe mx-auto text-xs duration-300 ease-in-out">Sign Up</p>
+					   </div>
+					 </div>
+				   </div>
+				 </nav>
+				  <button
+				   id="navbarToggler"
+				   class="absolute right-4 block -translate-y-1/2 px-3 py-[6px] ring-primary lg:hidden"
+				 >
+				   <span
+					 class="relative my-[6px] block h-[2px] w-[30px] bg-black"
+				   ></span>
+				   <span
+					 class="relative my-[6px] block h-[2px] w-[30px] bg-black"
+				   ></span>
+				   <span
+					 class="relative my-[6px] block h-[2px] w-[30px] bg-black"
+				   ></span>
+				 </button>
+			   </div>
+			   <div class="w-60 max-w-full px-4 custom-logo">
+				 <a href="index.html" class="navbar-logo block w-full py-5">
+				   <img
+					 src="assets/images/logo/Voyage-black.png"
+					 alt="logo"
+					 class="header-logo w-full w-24"
+				   />
+				 </a>
+			   </div>
+			   <div class="hidden justify-end pr-16 lg:flex lg:pr-0 share-icon">
+				 <a href="" class="py-3">
+				   <img src="assets/images/logo/Twitter-black.svg" alt="">
+				 </a>
+				 <a href="" class="py-3 px-8">
+				   <img src="assets/images/logo/Instogram-black.svg" alt="">
+				 </a>
+				 <a
+				   href="#"
+				   class="rounded-full bg-yellow-50 py-3 px-6 uppercase font-medium text-xs duration-300 ease-in-out"
+				 >
+				   Sign Up
+				 </a>
+			   </div>
+			 </div>
+		   </div>
+		 </div>
+	   </div>
+	   <!-- ====== Navbar Section End -->
+		 
+    <!-- ====== Hero Section Start -->
+    <div
+      id="home"
+      class="relative overflow-hidden bg-yellow-80 z-10"
+    >
+    
+    <div class="container">
+        <div class="-mx-4 flex flex-wrap items-center  pt-[120px] md:pt-[130px] lg:pt-[160px] pb-12">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+            <div
+              class="hero-content wow fadeInUp mx-auto max-w-[780px]"
+              data-wow-delay=".2s"
+            >
+              <p class="text-7xl xs:text-7xl uppercase font-playfair">Your</p>
+              <span class="text-7xl xs:text-7xl font-kalam uppercase">Story</span> <span class="text-7xl xs:text-7xl font-playfair uppercase">is</span>
+              <p class="text-7xl xs:text-7xl font-playfair uppercase mb-11">powerful</p>
+              <p class="text-xl xs:text-xl mb-9 font-acumin">Over the past decade, we’ve developed the tools, knowledge, and network needed to help 100s of members harness the power of storytelling to achieve massive growth through our Content Partners Program.
+              </p>
+              <a href="#" class="rounded-full bg-yellow-50 py-3 px-6 uppercase font-medium text-xs duration-300 ease-in-out"
+              >Unlock your potential
+              </a>
+              <!-- <img class="bottom-0 right-0 hero-mask" src="assets/images/hero/Mask1.png" alt="">
+              <img class="hero-opa bottom-0 right-0" src="assets/images/hero/hero3.png" alt=""> -->
+             
+            </div>
+            <div></div>
+          </div>    
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/2 mt-12">
+            <div>
+              <img class="hero bottom-0 right-0" src="assets/images/hero/hero3.png" alt="">
+			  <img class="bottom-0 right-0 hero-mask" src="assets/images/hero/Mask1.png" alt="">
+              <!-- <img class="hero-opa bottom-0 right-0" src="assets/images/hero/hero3.png" alt=""> -->
+             </div>
+          </div>    
+        </div>
+		<div class="hero-fadein">
+			<img id="h-f3" src="assets/images/hero/hero3.png">
+			<img id="h-f2" src="assets/images/hero/hero3.png">
+			<img id="h-f1" src="assets/images/hero/hero3.png">
+		</div> 
+      </div>
+    </div>
+    <!-- ====== Hero Section End -->	
+
+
+	 <!-- ====== Review Section Start -->
+	 <section id="review" class="pt-20 z-10 relative pb-8 lg:pt-[120px] lg:pb-[70px] bg-yellow-50">
+		<!-- <div class="container"> -->
+		  <div class="carousel" data-flickity>
+			<div class="carousel-cell p-10 ">
+			  <div class="wow fadeInUp" data-wow-delay=".2s">
+				<p class="font-playfair text-7xl xs:text-7xl uppercase letter-scale-3 mb-3">Reviews</p>
+				<div class="-mx-4 flex flex-wrap reverse-component">
+				  <div class="w-full px-4 lg:w-1/2 xl:w-1/2 pr-16">
+					<div class="flex mt-12">
+					  <img src="assets/images/hero/Star-black.svg" class="mr-1" alt="">
+					  <img src="assets/images/hero/Star-black.svg" class="mr-1" alt="">
+					  <img src="assets/images/hero/Star-black.svg" class="mr-1" alt="">
+					  <img src="assets/images/hero/Star-black.svg" class="mr-1" alt="">
+					  <img src="assets/images/hero/Star-grey.svg" alt="">
+					</div>
+					<p class="text-2rm xs:text-2rm font-playfair mt-12">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+					<p class="text-sm font-acumin uppercase mt-12">FIRSTNAME LASTNAME</p>
+				  </div>
+				  <div class="w-full lg:w-1/2 xl:w-1/2">
+					<div class="mask1">
+					  <img src="assets/images/mask/mask6.png">
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="carousel-cell p-10">
+			  <div  class="wow fadeInUp" data-wow-delay=".2s">
+				<p class="font-playfair text-7xl xs:text-7xl uppercase letter-scale-3 mb-3">Reviews</p>
+				<div class="-mx-4 flex flex-wrap reverse-component">
+				  <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+					<div class="flex mt-12">
+					  <img src="assets/images/hero/Star-black.svg" class="mr-1" alt="">
+					  <img src="assets/images/hero/Star-black.svg" class="mr-1" alt="">
+					  <img src="assets/images/hero/Star-black.svg" class="mr-1" alt="">
+					  <img src="assets/images/hero/Star-black.svg" class="mr-1" alt="">
+					  <img src="assets/images/hero/Star-grey.svg" alt="">
+					</div>
+					<p class="text-2rm xs:text-2rm font-playfair mt-12">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+					<p class="text-sm font-acumin uppercase mt-12">FIRSTNAME LASTNAME</p>
+				  </div>
+				  <div class="w-full lg:w-1/2 xl:w-1/2">
+					<div class="mask1">
+					  <img src="assets/images/mask/mask6.png">
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<!-- </div> -->
+	  </section>
+	  <!-- ====== Review Section End -->
+
+	   <!-- ====== Program details Section Start -->
+	   <section id="program" class="pt-20 pb-8 z-10 relative lg:pt-[120px] lg:pb-[70px] bg-light">
+		<div class="container">
+		  <div class="text-center wow fadeInUp mb-8"
+		  data-wow-delay=".1s">
+			<p class="text-7xl xs:text-7xl uppercase font-playfair font-medium">A program</p>
+			<span class="text-7xl xs:text-7xl font-kalam uppercase font-medium">tailored</span> <span class="text-7xl xs:text-7xl font-playfair uppercase font-medium">to your</span>
+			<p class="text-7xl xs:text-7xl font-playfair uppercase mb-10 font-medium">needs</p>
+			<p class="text-xl xs:text-xl mb-9 font-acumin mt-12 lg:w-6/12 my-auto lg:w-full">A brand strategist will work with you to learn your story, what has and hasn’t worked for you, and what makes your story and brand most compelling in order to map out an execution strategy to significantly level up your brand. Below, you’ll find some of the options available to members.</p>
+		  </div>
+		  <div class="wow fadeInUp mt-40" data-wow-delay=".2s">
+			<div class="-mx-4 flex flex-wrap reverse-component mt-12 mb-11 ">
+			  <div class="px-11 lg:w-1/2 xl:w-1/2">
+				  <p class="font-playfair text-4xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">Podcasts</p>
+				  <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 my-auto lg:w-full">Podcasts can improve conversion rates. For folks who are already considering working with you, hearing an in-depth conversation about what sets you apart from the competition can be the deciding factor for many potential clients.</p>
+				  <p class="font-playfair text-2xl mt-12 mb-8">Client examples</p>
+  
+				  <button class="accordion">
+					<div class="flex float-left">
+					  <img src="assets/images/client/avatar1.png" class="rounded-lg" alt="">
+					  <p class="font-acumin text-sm m-2 font-bold">Jennifer Myers</p> 
+					</div>
+				  </button>
+				  <div class="panel">
+					<p class="text-base font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="audio-player">
+					  <audio controls class="w-full">
+						<source src="assets/audio/A Way Back Into Love.mp3" type="audio/mp3">
+					  Your browser does not support the audio element.
+					  </audio>
+					</div>
+				  </div>
+				  <button class="accordion">
+					<div class="flex float-left">
+					  <img src="assets/images/client/avatar2.png" class="rounded-lg" alt="">
+					  <p class="font-acumin text-sm m-2 font-bold">Lucy Olsen</p> 
+					</div>
+				  </button>
+				  <div class="panel">
+					<p class="text-base font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="audio-player">
+					  <audio controls class="w-full">
+						<source src="assets/audio/A Way Back Into Love.mp3" type="audio/mp3">
+					  Your browser does not support the audio element.
+					  </audio>
+					</div>
+				  </div>
+				  <button class="accordion">
+					<div class="flex float-left">
+					  <img src="assets/images/client/avatar3.png" class="rounded-lg" alt="">
+					  <p class="font-acumin text-sm m-2 font-bold">Marcus Baldwin</p> 
+					</div>
+				  </button>
+				  <div class="panel">
+					<p class="text-base font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="audio-player">
+					  <audio controls class="w-full">
+						<source src="assets/audio/A Way Back Into Love.mp3" type="audio/mp3">
+					  Your browser does not support the audio element.
+					  </audio>
+					</div>
+				  </div>
+  
+				  
+			  </div>
+			  <div class="px-11 lg:w-1/2 xl:w-1/2">
+				<div class="mask1">
+				  <img class="rounded-2xl my-auto" src="assets/images/client/Client1.png" alt="Cinque Terre" width="600" height="400">
+				</div>
+			  </div>
+			</div>
+			<div class="-mx-4 flex flex-wrap mt-12 mb-11">
+			  <div class="px-11 lg:w-1/2 xl:w-1/2 w-4/6 m-auto">
+				<div class="w-full h-[500px]">
+					<iframe
+					class="w-full h-full rounded-lg my-auto"
+					src="https://sp2cdn-idea-global.zingfront.com/sp_opera/ac33e3c80930a68d61668014debafdd2.mp4"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowFullScreen
+				  ></iframe>
+				</div>
+			  </div>
+			  <div class="px-11 lg:w-1/2 xl:w-1/2">
+				  <p class="font-playfair text-4xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">TikTok Trends & IG Reels</p>
+				  <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 my-auto lg:w-full">TikTok and Instagram Reels are one of the most effective ways to gain exposure to new prospective clients and fans as well as stay top of mind with your current followers. Our TikTok & Reels strategist will work with you to develop a winning strategy and our video editors will help make the production process easier than ever – saving you time and money.</p>
+				  <p class="font-playfair text-2xl mt-12 mb-8">Client examples</p>
+  
+				  <button class="accordion">
+					<div class="flex float-left">
+					  <img src="assets/images/client/avatar4.png" class="rounded-lg" alt="">
+					  <p class="font-acumin text-sm m-2 font-bold">Jackie Morrison</p> 
+					</div>
+				  </button>
+				  <div class="panel">
+					<p class="text-base font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				  </div>
+				  <button class="accordion">
+					<div class="flex float-left">
+					  <img src="assets/images/client/avatar5.png" class="rounded-lg" alt="">
+					  <p class="font-acumin text-sm m-2 font-bold">Lucy Olsen</p> 
+					</div>
+				  </button>
+				  <div class="panel">
+					<p class="text-base font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				  </div>
+				  
+			  </div>
+			 
+			</div>
+			<div class="-mx-4 flex flex-wrap reverse-component mt-12 mb-11 ">
+			  <div class="px-11 lg:w-1/2 xl:w-1/2">
+				  <p class="font-playfair text-4xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">TBD</p>
+				  <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 my-auto lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+				  <p class="font-playfair text-2xl mt-12 mb-8">Client examples</p>
+  
+				  <button class="accordion">
+					<div class="flex float-left">
+					  <img src="assets/images/client/avatar6.png" class="rounded-lg" alt="">
+					  <p class="font-acumin text-sm m-2 font-bold">Corey Marshall</p> 
+					</div>
+				  </button>
+				  <div class="panel">
+					<p class="text-base font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				  </div>
+				  <button class="accordion">
+					<div class="flex float-left">
+					  <img src="assets/images/client/avatar7.png" class="rounded-lg" alt="">
+					  <p class="font-acumin text-sm m-2 font-bold">Carla Nelson</p> 
+					</div>
+				  </button>
+				  <div class="panel">
+					<p class="text-base font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				  </div>
+				  <button class="accordion">
+					<div class="flex float-left">
+					  <img src="assets/images/client/avatar8.png" class="rounded-lg" alt="">
+					  <p class="font-acumin text-sm m-2 font-bold">Marcus Baldwin</p> 
+					</div>
+				  </button>
+				  <div class="panel">
+					<p class="text-base font-acumin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				  </div>
+  
+				  
+			  </div>
+			  <div class="px-11 lg:w-1/2 xl:w-1/2">
+				<div class="mask1">
+				  <img class="rounded-2xl my-auto" src="assets/images/client/Client2.png" alt="Cinque Terre" width="600" height="400">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="wow fadeInUp mt-40" data-wow-delay=".2s">
+			<p class="text-4xl xs:text-4xl font-playfair uppercase letter-scale-3 ml-6">More opportunities</p>
+			<div class="-mx-4 flex flex-wrap mt-12 mb-11">
+			  <div class="w-full px-11 lg:w-1/2 xl:w-1/2 mb-11">
+				<p class="font-playfair text-2xl mb-5">Photoshoots</p>
+				<div>
+				  <input type="checkbox" class="read-more-state" id="readmore1" />
+				  <p class="read-more-wrap font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				  </span></p>
+				  
+				  <label for="readmore1" class="read-more-trigger"></label>
+				</div>
+			  </div>
+			  <div class="w-full px-11 lg:w-1/2 xl:w-1/2 mb-11">
+				<p class="font-playfair text-2xl mb-5">Client Testimonials</p>
+				<div>
+				  <input type="checkbox" class="read-more-state" id="readmore2" />
+				  <p class="read-more-wrap font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				  </span></p>
+				  
+				  <label for="readmore2" class="read-more-trigger"></label>
+				</div>
+			  </div>
+			  <div class="w-full px-11 lg:w-1/2 xl:w-1/2 mb-11">
+				<p class="font-playfair text-2xl mb-5">Launch your own show</p>
+				<div>
+				  <input type="checkbox" class="read-more-state" id="readmore3" />
+				  <p class="read-more-wrap font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				  </span></p>
+				  
+				  <label for="readmore3" class="read-more-trigger"></label>
+				</div>
+			  </div>
+			  <div class="w-full px-11 lg:w-1/2 xl:w-1/2 mb-11">
+				<p class="font-playfair text-2xl mb-5">Expert panels</p>
+				<div>
+				  <input type="checkbox" class="read-more-state" id="readmore4" />
+				  <p class="read-more-wrap font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				  </span></p>
+				  
+				  <label for="readmore4" class="read-more-trigger"></label>
+				</div>
+			  </div>
+			  <div class="w-full px-11 lg:w-1/2 xl:w-1/2">
+				<p class="font-playfair text-2xl mb-5">Sponsored Shoutouts
+				</p>
+				<div>
+				  <input type="checkbox" class="read-more-state" id="readmore5" />
+				  <p class="read-more-wrap font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.<span class="read-more-target font-acumin text-xl xs:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				  </span></p>
+				  
+				  <label for="readmore5" class="read-more-trigger"></label>
+				</div>
+			  </div>
+			</div>
+		  </div>
+  
+		</div>
+	  </section>
+	  <!-- ====== Program details Section End -->
+
+	   <!-- ====== Client Success Section Start -->
+	   <section id="testimonial" class="pt-20 pb-8 z-10 relative lg:pt-[120px] lg:pb-[70px] bg-green-light">
+		<div class="container">
+		  <div class="text-center lg:text-left wow fadeInUp mb-8"
+		  data-wow-delay=".1s">
+			<p class="text-7xl xs:text-7xl uppercase font-playfair font-medium">Client success</p>
+			<span class="text-7xl xs:text-7xl font-kalam uppercase font-medium">stories</span> 
+		  </div>
+        <!-- <1440px -->
+		  <div class="wow fadeInUp xl:hidden" data-wow-delay=".2s">
+        <div class="-mx-4 flex flex-wrap mt-12 mb-11 relative">
+          <div class="px-4 lg:w-1/2 xl:w-1/2">
+            <p class="font-playfair text-sm uppercase mt-12 mb-10">Success Stories</p>
+            <p class="font-playfair text-6xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">Sarah’s Story</p>
+            <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 mb-11 my-auto lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <br>
+            <br>
+            <div class="mask2">
+            <img class="rounded-2xl my-auto  mobile:relative md:w-full" src="assets/images/mask/mask1.png" alt="Cinque Terre" width="600" height="400">
+            </div>
+            <p class="text-[26px] xs:text-[26px] mb-9 font-playfair mt-12 mb-11 my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+            <br>
+            <p class="text-4xl xs:text-4xl font-playfair mb-5">374K</p>
+            <p class="text-base w-70pe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="px-4 lg:w-1/2 xl:w-1/2">
+          </div>
+        </div>
+        <div class="-mx-4 flex flex-wrap mt-12 mb-11 relative">
+          
+          <div class="px-4 lg:w-1/2 xl:w-1/2">
+          
+          </div>
+          <div class="px-4 lg:w-1/2 xl:w-1/2">
+          <p class="font-playfair text-sm uppercase mt-12 mb-10">Success Stories</p>
+          <p class="font-playfair text-6xl xs:text-4xl uppercase mt-12 mb-10">Corey’s Story</p>
+          <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 mb-11 my-auto lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <br>
+          <br>
+          <div class="mask3">
+            <img class="rounded-2xl my-auto absolute  mobile:relative  md:w-full" src="assets/images/mask/mask2.png" alt="Cinque Terre" width="600" height="400">
+          </div>
+          <p class="text-[26px] xs:text-[26px] mb-9 font-playfair mt-12 mb-11 my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+          <br>
+          <p class="text-4xl xs:text-4xl font-playfair mb-5">96%</p>
+          <p class="text-base w-70pe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          
+          </div>
+        </div>
+        <div class="-mx-4 flex flex-wrap mt-12 mb-11 relative">
+          <div class="px-4 lg:w-1/2 xl:w-1/2">
+            <p class="font-playfair text-sm uppercase mt-12 mb-10">Success Stories</p>
+            <p class="font-playfair text-6xl xs:text-4xl uppercase mt-12 mb-10">Marianne’s Story</p>
+            <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 mb-11 my-auto lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <br>
+            <br>
+            <div class="mask2">
+            <img class="rounded-2xl my-auto  mobile:relative  md:w-full" src="assets/images/mask/mask3.png" alt="Cinque Terre" width="600" height="400">
+            </div>
+            <p class="text-[26px] xs:text-[26px] mb-9 font-playfair mt-12 mb-11 my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+            <br>
+            <p class="text-4xl xs:text-4xl font-playfair mb-5">374K</p>
+            <p class="text-base w-70pe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+          </div>
+          <div class="px-11 lg:w-1/2 xl:w-1/2">
+          
+          </div>
+        </div>
+		   
+		  </div>
+        <!-- 1440>px -->
+      <div class="wow fadeInUp mt-40 xxl:hidden" data-wow-delay=".2s">
+        <div class="-mx-4 flex flex-wrap mt-12 mb-11 relative">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+            <img class="rounded-lg w-[170px] absolute top-20 h-[140px] object-fit transform-flip" src="assets/images/hero/hero4.png" alt="">
+            <img class="absolute rounded-lg left-9 top-2 w-[330px] h-[330px] object-fit transform-flip" src="assets/images/hero/hero4.png" alt="">
+          </div> 
+          <div class="w-full px-4 flex lg:w-1/2 xl:w-1/2">
+            <div class="m-auto">
+              <p class="font-playfair text-sm uppercase mt-12 mb-10">Success Stories</p>
+              <p class="font-playfair text-6xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">Sarah’s</p>
+              <p class="font-playfair text-6xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">Story</p>
+              <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 mb-11 my-auto lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class="w-full px-4 flex lg:w-1/2 xl:w-1/2">
+              <div class="m-auto">
+                <p class="text-[26px] xs:text-[26px] mb-9 font-playfair mt-12 mb-11 my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+              <br>
+              <p class="text-4xl xs:text-4xl font-playfair mb-5">374K</p>
+              <p class="text-base w-70pe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+            <div >
+              <img class="rounded-2xl my-auto" src="assets/images/mask/mask1.png" alt="Cinque Terre" width="600" height="400">
+              </div>
+          </div>
+        </div>
+        <div class="-mx-4 flex flex-wrap mt-12 mb-11 relative">
+          <div class="w-full px-4 flex lg:w-1/2 xl:w-1/2">
+            <div class="m-auto">
+              <p class="font-playfair text-sm uppercase mt-12 mb-10">Success Stories</p>
+              <p class="font-playfair text-6xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">SCorey’s</p>
+              <p class="font-playfair text-6xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">Story</p>
+              <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 mb-11 my-auto lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+            <img class="absolute right-24 rounded-lg w-[170px] h-[140px] top-3 object-fit" src="assets/images/hero/hero5.png" alt="">
+            <img class="absolute rounded-lg w-[330px] right-7 top-9 h-[330px] object-fit" src="assets/images/hero/hero5.png" alt="">
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+            <div >
+              <img class="rounded-2xl my-auto" src="assets/images/mask/mask2.png" alt="Cinque Terre" width="600" height="400">
+              </div>
+          </div>
+          <div class="w-full px-4 flex lg:w-1/2 xl:w-1/2">
+            <div class="m-auto">
+              <p class="text-[26px] xs:text-[26px] mb-9 font-playfair mt-12 mb-11 my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+            <br>
+            <p class="text-4xl xs:text-4xl font-playfair mb-5">96%</p>
+            <p class="text-base w-70pe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        </div>
+        <div class="-mx-4 flex flex-wrap mt-12 mb-11 relative">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+            <img class="rounded-lg w-[170px] absolute top-20 h-[140px] object-fit transform-flip" src="assets/images/hero/hero6.png" alt="">
+            <img class="absolute rounded-lg left-9 top-2 w-[330px] h-[330px] object-fit transform-flip" src="assets/images/hero/hero6.png" alt="">
+          </div>
+          <div class="w-full px-4 flex lg:w-1/2 xl:w-1/2">
+            <div class="m-auto">
+              <p class="font-playfair text-sm uppercase mt-12 mb-10">Success Stories</p>
+              <p class="font-playfair text-6xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">Marianne’s</p>
+              <p class="font-playfair text-6xl xs:text-4xl uppercase letter-scale-3 mt-12 mb-10">Story</p>
+              <p class="text-xl xs:text-xl mb-9 font-acumin mt-12 mb-11 my-auto lg:w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class="w-full px-4 flex lg:w-1/2 xl:w-1/2">
+              <div class="m-auto">
+                <p class="text-[26px] xs:text-[26px] mb-9 font-playfair mt-12 mb-11 my-auto lg:w-full">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.”</p>
+              <br>
+              <p class="text-4xl xs:text-4xl font-playfair mb-5">374K</p>
+              <p class="text-base w-70pe">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+            <div >
+              <img class="rounded-2xl my-auto" src="assets/images/mask/mask3.png" alt="Cinque Terre" width="600" height="400">
+              </div>
+          </div>
+        </div>
+
+        
+      </div>
+		  <div class="wow fadeInUp mt-40 text-center" data-wow-delay=".2">
+			<p class="text-7xl xs:text-7xl uppercase font-playfair font-medium ">Frequently asked</p>
+			<span class="text-7xl xs:text-7xl font-kalam uppercase font-medium mb-11">questions</span> 
+			<div class="lg:w-2/3 m-auto">
+				<div class="mt-40 question-accordion">
+					<button class="accordion">
+					  <div class="flex float-left">
+						<p class="font-playfair lg:text-[24px] md:text-[20px] text-xl xs:text-xl m-2">Lorem ipsum dolor</p> 
+					  </div>
+					</button>
+					<div class="panel">
+					  <p class="text-base font-acumin text-left py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				  </div>
+				  <div class="question-accordion">
+					<button class="accordion">
+					  <div class="flex float-left">
+						<p class="font-playfair lg:text-[24px] md:text-[20px] text-xl xs:text-xl m-2">Lorem ipsum dolor</p> 
+					  </div>
+					</button>
+					<div class="panel">
+					  <p class="text-base font-acumin text-left py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				  </div>
+				  <div class="question-accordion">
+					<button class="accordion">
+					  <div class="flex float-left">
+						<p class="font-playfair lg:text-[24px] md:text-[20px] text-xl xs:text-xl m-2">Lorem ipsum dolor</p> 
+					  </div>
+					</button>
+					<div class="panel">
+					  <p class="text-base font-acumin text-left py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				  </div>
+				  <div class="question-accordion">
+					<button class="accordion">
+					  <div class="flex float-left">
+						<p class="font-playfair lg:text-[24px] md:text-[20px] text-xl xs:text-xl m-2">Lorem ipsum dolor</p> 
+					  </div>
+					</button>
+					<div class="panel">
+					  <p class="text-base font-acumin text-left py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				  </div>
+				  <div class="question-accordion">
+					<button class="accordion">
+					  <div class="flex float-left">
+						<p class="font-playfair lg:text-[24px] md:text-[20px] text-xl xs:text-xl m-2">Lorem ipsum dolor</p> 
+					  </div>
+					</button>
+					<div class="panel">
+					  <p class="text-base font-acumin text-left py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				  </div>
+			</div>
+		  </div>
+  
+		</div>
+	  </section>
+	  <!-- ====== Client Success Section End -->
+	  
+    <!-- ====== Scroll Slide Start ====== -->
+		<div  data--200p-top="background-color: #242E22;" data-anchor-target="#slide-1">
+		
+		<!-- <section id="slide-0" class="homeSlide">
+			<div class="bcg" data-top="opacity: 0; width: 100%; height: 100%; top: 0%; left: 0%;" data-center="opacity: 0; width: 156%; height: 156%; top: -28%; left: -28%;" data-anchor-target="#slide-0">
+			</div>
+			<div class="plaxEl"  data-center="opacity: 0;" data-100p-top="opacity: 0; position: fixed; top: 206px; width: 100%; left: 0;" data--25p-bottom="opacity: 0;" data--20p-bottom="opacity: 0;" data-anchor-target="#slide-0">
+				<h2></h2>
+			</div>
+		</section> -->
+		<section id="slide-1" class="homeSlide">
+			<div class="bcg" data-top="opacity: 1; width: 100%; height: 100%; top: 0%; left: 0%;" data-center="opacity: 1; width: 156%; height: 156%; top: -28%; left: -28%;" data-40p-bottom="opacity: 0; width: 196%; height: 196%; top: -48%; left: -48%;" data-anchor-target="#slide-1">
+			</div>
+			<div class="plaxEl px-14"  data-center="opacity: 1;" data-100p-top="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;" data--25p-bottom="opacity: 0;" data--20p-bottom="opacity: 0;" data-anchor-target="#slide-1" data-wow-delay=".1s">
+				<h2 class="font-playfair text-[32px] xs:text-[26px] w-60pe md:w-full my-auto" >For the coffee shop owner who had the nerve to not give up despite a corporate chain opening up next door...</h2>
+			</div>
+		</section>
+		
+		<section id="slide-2" class="homeSlide" data-bottom="opacity: 0;" data--10p-bottom="opacity: 1;" data-anchor-target="#slide-2">
+			<div class="bcg" data-top="opacity: 1; width: 100%; height: 100%; top: 0%; left: 0%;" data-center="opacity: 1; width: 156%; height: 156%; top: -28%; left: -28%;" data-40p-bottom="opacity: 0; width: 196%; height: 196%; top: -48%; left: -48%;"  data-anchor-target="#slide-2">
+			</div>
+			<div class="plaxEl px-14"  data-center="opacity: 1;" data-100p-top="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;" data--25p-bottom="opacity: 0;" data--20p-bottom="opacity: 0;"  data-anchor-target="#slide-2">
+				<h2 class="font-playfair text-[32px] xs:text-[26px] w-60pe md:w-full my-auto mx-">The artist who persisted despite doubts from friends and family...</h2>
+			</div>
+		</section>
+		<section id="slide-3" class="homeSlide" data-bottom="opacity: 0;" data--10p-bottom="opacity: 1;" data-anchor-target="#slide-2">
+			<div  class="bcg" data-top="opacity: 1; width: 100%; height: 100%; top: 0%; left: 0%;" data-center="opacity: 1; width: 156%; height: 156%; top: -28%; left: -28%;" data-40p-bottom="opacity: 0; width: 196%; height: 196%; top: -48%; left: -48%;"  data-anchor-target="#slide-3">
+			</div>
+			<div class="plaxEl px-14"  data-center="opacity: 1;" data-100p-top="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;" data--25p-bottom="opacity: 0;" data--20p-bottom="opacity: 0;" data-anchor-target="#slide-3">
+				<h2 class="font-playfair text-[32px] xs:text-[26px] w-60pe md:w-full my-auto">The mom and pops who overcame all odds and built a beautiful life for their children...</h2>
+			</div>
+		</section>
+		<section id="slide-4" class="homeSlide" data-bottom="opacity: 0;" data--10p-bottom="opacity: 1;" data-anchor-target="#slide-3">
+			<div class="bcg" data-top="opacity: 1; width: 100%; height: 100%; top: 0%; left: 0%;" data-center="opacity: 1; width: 156%; height: 156%; top: -28%; left: -28%;" data-40p-bottom="opacity: 0; width: 196%; height: 196%; top: -48%; left: -48%;"   data-anchor-target="#slide-4">
+			</div>
+			<div class="plaxEl px-14"  data-center="opacity: 1;" data-100p-top="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;" data--25p-bottom="opacity: 0;" data--20p-bottom="opacity: 0;" data-anchor-target="#slide-4">
+				<h2 class="font-playfair text-[32px] xs:text-[26px] w-60pe md:w-full my-auto">For the folks who just didn’t fit in at corporate, saw things differently and knew they had more to offer the world..</h2>
+			</div>
+		</section>
+		
+		
+		
+	</div>
+    <!-- ====== Scroll Slide Start ====== -->
+
+    <!-- ====== Stand Section Start ====== -->
+	<section id="faq" class="pt-20 pb-8 z-10 relative lg:pt-[120px] lg:pb-[70px] bg-green-dark">
+		<div class="container">
+			<div class="relative">
+				<div class="text-center wow fadeInUp py-36 mb-8 w-45pe my-auto md:w-full" data-wow-delay=".1s">
+				  <p class=" uppercase font-playfair font-medium text-white text-6xl xs:text-4xl letter-scale-3 my-auto">we stand</p>
+				  <p class=" uppercase font-playfair font-medium text-white text-6xl xs:text-4xl letter-scale-3 my-auto">with you and</p>
+				  <p class=" uppercase font-playfair font-medium text-white text-6xl xs:text-4xl letter-scale-3 my-auto">for you</p>
+				  <p class="font-acumin text-xl xs:text-xl mt-12 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<img src="assets/images/hero/hero6.png" class="absolute h-auto mt-60 mobile:hidden rounded-xl top-0 w-[250px]" alt="">
+				<img src="assets/images/client/Client3.png" class="absolute mr-10 right-0 mobile:hidden rounded-xl top-0 w-[110px]" alt="">
+				<img src="assets/images/client/Client4.png" class="absolute bottom-40 mobile:hidden right-4 rounded-xl w-[170px]" alt="">
+				<img src="assets/images/client/Client5.png" class="absolute bottom-1 mobile:hidden left-20pe rounded-xl w-[10px]" alt="">
+
+			</div>
+		 
+  
+		</div>
+	  </section>
+    <!-- ====== Stand Section End ====== -->
+
+    <!-- ====== Get Started Section End ====== -->
+	<section class="pb-8 z-10 relative z-10 lg:pb-[70px] bg-green-dark">
+		<div class="container">
+			<div class="text-center wow fadeInUp py-36 mb-8 w-50pe my-auto md:w-full" data-wow-delay=".1s">
+				<p class=" uppercase font-playfair font-medium text-white text-[56px] xs:text-[56px] letter-scale-3 my-auto">Sign up to </p>
+				<p class=" uppercase font-kalam font-medium text-white text-[56px] xs:text-[56px] letter-scale-3 my-auto">get started </p>
+				<p class="text-2xl font-playfair text-white mb-11">Join hundreds of small businesses, artists and creatives who trust the VoyageDallas Content Program to take their brands to the next level.</p>
+				<a href="#" class="mt-12 rounded-full bg-yellow-50 py-4 px-8 uppercase font-medium text-xs duration-300 ease-in-out">
+					Sign Up
+				  </a>
+			</div>
+		</div>
+	  </section>
+    <!-- ====== Get Started Section End ====== -->
+  
+	<!-- ====== Footer Section Start -->
+    <footer
+      class=" relative z-10 bg-green-dark "
+      data-wow-delay=".15s"
+    >
+      <div class="container text-center wow fadeInUp pb-20">
+       <p class="font-acumin text-[28px] text-bold text-white">Voyage</p>
+       <p class="font-acumin text-base  text-white">Lorem ipsum dolor sit amet</p>
+	   <br>
+       <p class="font-acumin text-base  text-white">Link lorem 1</p>
+       <p class="font-acumin text-base  text-white">Link ipsum 2</p>
+       <p class="font-acumin text-base  text-white">Link lorem 3</p>
+       <p class="font-acumin text-base  text-white">Link ipsum 4</p>
+	   <br>
+	   <br>
+	   <p class="font-acumin text-base  text-gray">2022 © Lorem ipsum dolor sit amet</p>
+
+      </div>
+
+    </footer>
+    <!-- ====== Footer Section End -->
+
+	
+
+	 <!-- ====== Back To Top Start -->
+	 <a
+	 href="javascript:void(0)"
+	 class="back-to-top fixed bottom-8 right-8 left-auto z-[999] hidden h-10 w-10 items-center justify-center rounded-md bg-primary text-white shadow-md transition duration-300 ease-in-out hover:bg-dark"
+   >
+	 <span
+	   class="mt-[6px] h-3 w-3 rotate-45 border-t border-l border-white"
+	 ></span>
+   </a>
+   <!-- ====== Back To Top End -->
+
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="assets/js/skrollr.js"></script>
+        <script src="assets/js/imagesloaded.js"></script>
+        <script src="assets/js/scrollzoom.js"></script>
+		<script src="assets/js/main.js"></script>
+
+        
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    </body>
+</html>
